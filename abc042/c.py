@@ -1,7 +1,7 @@
-n,k = map(int,input().split())
+n, k = map(int, input().split())
 d = list(input().split())
 
-f=True
+f = True
 while(1):
     n_str = str(n)
     print('aaaaaa')
