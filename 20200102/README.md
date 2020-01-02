@@ -1,0 +1,8 @@
+# bit全探索を理解する
+
+## コード
+- `mikan.py`: Qiitaの例題
+
+## 参考にした
+- [Python de アルゴリズム（bit全探索）](https://qiita.com/gogotealove/items/11f9e83218926211083a)
+
