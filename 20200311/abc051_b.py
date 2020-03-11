@@ -1,3 +1,4 @@
+# ABC051 b 全探索 TLE
 k,s = map(int,input().split())
 
 ans = 0
