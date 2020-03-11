@@ -16,3 +16,17 @@ for i in range(n):
             ans = jo
 
 print(math.sqrt(ans))
+
+
+
+
+'''
+# 累乗
+math.pow(3,2) → 3**2
+math.sqrt(3,2) → 3**0.5
+
+# x y をn行受け取る
+xy = [tuple(map(int, input().split())) for _ in range(n)]
+xy[1][2]みたいに使う
+
+'''
