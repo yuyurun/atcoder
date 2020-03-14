@@ -1,6 +1,11 @@
 a,b,c = map(int, input().split())
 
-if a**0.5 + b**0.5 < c**0.5:
+l = (c-a-b)**2
+r = 4*a*b
+
+if c-a-b<0:
+    print('No')
+elif l>r:
     print('Yes')
 else:
     print('No')
