@@ -1,12 +1,11 @@
-import itertools
-
 n = int(input())
 p = list(map(int,input().split()))
 
-ans = []
-p += [0]*n
+MAX = 10000
+dp = [1] + [0]*MAX
 
-for v in itertools.combinations(p, n):
-    ans.append(sum(v))
+for v in p:
+    for j in range(MAX, v-1, -1):
+        dp[j] |= dp[j-v]
 
-print(len(set(ans)))
+print(sum(dp))
